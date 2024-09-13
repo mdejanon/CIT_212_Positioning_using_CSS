@@ -18,16 +18,9 @@ nav {
     z-index: 99;
 }
 
-/* Added a Navigation box, so that the black logo
-would not be displaced by text or other content in
-added to the Nav bar. */
-.navinavigation {
-    position: relative;
-    width: 75%;
-}
-
 .logobox {
     position: absolute;
+    top: 0px;
     right: 0px;
     width: 80px;
     height: 80px;
