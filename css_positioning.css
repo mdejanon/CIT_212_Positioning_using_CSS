@@ -1,0 +1,55 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    /* Added a gray background to have no white cut off
+    below the Articles element if the browser window is 
+    too tall. */
+    background-color: gray;
+}
+
+nav {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    border-bottom: 2px solid black;
+    z-index: 99;
+}
+
+.logobox {
+    position: absolute;
+    right: 0px;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+}
+
+.articles {
+    position: relative;
+    top: 82px;
+    /* Adjusted height from 800px to 960px to fit the margins, 
+    the article boxes and to not be cover by the footer if
+    the broswer window is too small. */
+    height: 960px;
+    /* Width not specified in the instructions */
+    /* width: ;  Not specified in the instructions */
+    background-color: gray;
+}
+
+article {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: white;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    border-top: 2px solid black;
+}
